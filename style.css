@@ -1,0 +1,382 @@
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.direction-col {
+    flex-direction: column;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: end;
+}
+
+.a-start {
+    align-items: start;
+}
+
+.h500 {
+    height: 500px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.h350 {
+    height: 350px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.gap30 {
+    gap: 30px;
+}
+
+.flex04 {
+    flex: 0.4;
+}
+
+.flex07 {
+    flex: 0.7;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.flex6 {
+    flex: 6;
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+}
+
+.a-self {
+    align-self: center;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-none {
+    display: none;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.col-reverse {
+    flex-direction: column-reverse;
+}
+
+/*     */
+
+body {
+    width: 1300px;
+    margin: 0 auto;
+    font-family: "Dancing Script", cursive;
+    cursor: url("Iconoir-Team-Iconoir-Cursor-pointer.512.png"), auto;
+    background-color: black;
+}
+
+#youtubePlayer {
+    width: 0;
+    height: 0;
+    border: none;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#searchZone {
+    background-image: url("https://stplattaprod.blob.core.windows.net/helfikuvaprod/styles/3_2_m/azure/talvipuutarha_31.jpg?h=f2fcf546&itok=ln-x9LyD");
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    position: relative;
+    overflow: hidden;
+}
+
+#wordsList {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(165, 173, 236, 0.38);
+    position: relative;
+    top: -100px;
+}
+
+.word {
+    margin: 10px 30px;
+    color: white;
+    font-size: 24px;
+}
+
+.text-decor {
+    text-decoration: line-through;
+}
+
+#hint {
+    position: relative;
+    top: -320px;
+    left: 1220px;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fb65ad05-d4e0-46e3-a121-edd0ed4b4ef9/df0xs9v-c2a7a988-c4e7-4b26-b1bc-69c7392e019f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZiNjVhZDA1LWQ0ZTAtNDZlMy1hMTIxLWVkZDBlZDRiNGVmOVwvZGYweHM5di1jMmE3YTk4OC1jNGU3LTRiMjYtYjFiYy02OWM3MzkyZTAxOWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0gyc_c7nXVp9zJk6xxEmoPJVwk-XxnmwuGMg9NPYXdI");
+    background-size: cover;
+    height: 100px;
+    width: 70px;
+    opacity: 0.8;
+}
+
+.border {
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+#bird {
+    width: 35px;
+    position: absolute;
+    left: 398px;
+    top: 175px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#fountain {
+    width: 75px;
+    position: absolute;
+    left: 480px;
+    top: 340px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#monkey {
+    width: 65px;
+    position: absolute;
+    left: 1010px;
+    top: 95px;
+    transition: 0.5s;
+}
+
+#roses {
+    width: 45px;
+    position: absolute;
+    left: 573px;
+    top: 343px;
+    opacity: 0.7;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#sticker {
+    width: 65px;
+    position: absolute;
+    left: 593px;
+    top: -3px;
+    transition: 0.5s;
+}
+
+#key {
+    width: 50px;
+    position: absolute;
+    left: 889px;
+    top: 666px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+#fan {
+    width: 125px;
+    position: absolute;
+    left: 555px;
+    top: 189px;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#napkins {
+    width: 30px;
+    position: absolute;
+    left: 695px;
+    top: 428px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+#windChimes {
+    width: 35px;
+    position: absolute;
+    left: 793px;
+    top: 170px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+#snake {
+    width: 105px;
+    position: absolute;
+    left: 995px;
+    top: 380px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+#cactus {
+    width: 125px;
+    position: absolute;
+    left: 492px;
+    top: 235px;
+    transition: 0.5s;
+}
+
+#stringOfLights {
+    width: 155px;
+    position: absolute;
+    left: 385px;
+    top: 117px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+#gardenGnome {
+    width: 75px;
+    position: absolute;
+    left: 485px;
+    top: 425px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+#rake {
+    width: 80px;
+    position: absolute;
+    left: 560px;
+    top: 430px;
+    transition: 0.5s;
+}
+
+#mosaic {
+    width: 50px;
+    position: absolute;
+    left: 620px;
+    top: 270px;
+    opacity: 0.9;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#crack {
+    width: 132px;
+    position: absolute;
+    left: 1210px;
+    top: 20px;
+    transition: 0.5s;
+}
+
+#palmPrint {
+    width: 70px;
+    position: absolute;
+    left: 1125px;
+    top: 525px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+#crescent {
+    width: 110px;
+    position: absolute;
+    left: 265px;
+    top: 100px;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+

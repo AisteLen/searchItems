@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search items game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<button id="playMusic">Play Music</button>
+<button id="stopMusic">Stop Music</button>
+<audio id="backgroundMusic" loop>
+    <source src="So%20Good%20-%20Bang%20Bang%20feat.%20Ed%20Mills%20%5BSoul%5D.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<div id="searchZone">
+    <img id="snake" src="https://dlczb9lfz9r73.cloudfront.net/wp-content/uploads/2022/05/05112032/gartner-snake_-e1704471644742.png.webp" alt="snake">
+    <img id="windChimes" src="https://assets.basspro.com/image/upload/f_auto/q_auto/c_scale,w_372/v1/ProductImages/700/master1_101118987_main?_a=DAJAUVWIZAAB" alt="wind chimes">
+    <img id="napkins" src="https://www.paperlanepackaging.com.au/cdn/shop/products/L-SSD-TT_media_big_01.png?v=1691491849" alt="napkins">
+    <img id="fan" src="https://cdn11.bigcommerce.com/s-rth31vr4ni/images/stencil/original/products/201/828/Untitled-1-07__54806.1699311608.png?c=1" alt="fan">
+    <img id="key" src="https://www.kennedyhardware.com/images/D/KY-9HAB-D.png" alt="key">
+    <img id="sticker" src="https://d6ce0no7ktiq.cloudfront.net/images/attachment/2023/10/02/8f5cbed16e664327ae032bc86d599fa59e0c8ce8.png" alt="sticker">
+    <img id="roses" src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1674974423/vendor/709/catalog/product/2/0/20200719011814_file_5f139f56a5425_5f13a0260f989.png" alt="roses">
+    <img id="monkey" src="https://upload.wikimedia.org/wikipedia/en/4/4a/Monkgomery.png" alt="monkey">
+    <img id="fountain" src="https://www.hawsco.com/wp-content/uploads/2020/07/3380-001.png" alt="drinking fountain">
+    <img id="bird" src="https://cdn.shopify.com/s/files/1/0764/2541/files/Fotolia_2181191_XL_medium.png?3965481222233769146" alt="bird">
+    <img id="cactus" src="https://www.beardsanddaisies.co.uk/cdn/shop/files/SIZED_PLANT_CUT_cowboy_cactus_copy_dfcb3090-c9a9-44a4-9742-c831a31f34e1.webp?v=1700237167" alt="cactus">
+    <img id="stringOfLights" src="https://apim.canadiantire.ca/v1/product/api/v1/product/image/0522795p?baseStoreId=CTR&lang=en_CA&subscription-key=c01ef3612328420c9f5cd9277e815a0e&imwidth=640&impolicy=mZoom" alt="string of lights">
+    <img id="gardenGnome" src="https://media-www.canadiantire.ca/product/seasonal-gardening/backyard-living/outdoor-living-accessories/1590035/for-living-travelling-gnome-garden-statue-5ae56ca5-9b14-4a58-a07b-e64237a5ebcc.png?imdensity=1&imwidth=1244&impolicy=mZoom" alt="garden gnome">
+    <img id="rake" src="https://www.crestonhardware.com/cdn/shop/products/287_29_CRK305_580x.png?v=1591254675" alt="rake">
+    <img id="mosaic" src="https://i.ebayimg.com/images/g/EIoAAOSwlO1lAIlK/s-l400.png" alt="mosaic">
+    <img id="crack" src="https://www.pngall.com/wp-content/uploads/2017/03/Broken-Window-PNG-Clipart.png" alt="window crack">
+    <img id="palmPrint" src="https://images.squarespace-cdn.com/content/v1/635b21589ce3167971e5a5db/03251c5a-5478-47f5-8374-b55785e8ca30/Hand_01.png" alt="hand print">
+    <img id="crescent" src="https://anatometal.com/cdn/shop/files/CRESCENT-MOON-FRONT-copy-NO-LOGO_3f0ed7ce-d41e-4c16-ad45-1335cbac015a.png?v=1711729127" alt="crescent"></div>
+
+<div class="d-flex flex-wrap" id="wordsList">
+    <div class="word">Snake</div>
+    <div class="word">Wind chimes</div>
+    <div class="word">Napkins</div>
+    <div class="word">Fan</div>
+    <div class="word">Key</div>
+    <div class="word">Sticker</div>
+    <div class="word">Roses</div>
+    <div class="word">Monkey</div>
+    <div class="word">Drinking fountain</div>
+    <div class="word">Bird</div>
+    <div class="word">Cactus</div>
+    <div class="word">String of Lights</div>
+    <div class="word">Garden gnome</div>
+    <div class="word">Rake</div>
+    <div class="word">Mosaic</div>
+    <div class="word">Window crack</div>
+    <div class="word">Hand print</div>
+    <div class="word">Crescent</div>
+</div>
+
+<div id="hint"></div>
+
+
+</body>
+</html>
